@@ -19,6 +19,4 @@ public class CategoryDTO {
     @NotNull
     @Size(max = 70)
     private String name;
-
-    private CategoryDTO category;
 }

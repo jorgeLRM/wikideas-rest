@@ -22,9 +22,4 @@ public class Category {
     @Column(nullable = false, length = 70)
     private String name;
 
-    @ManyToOne
-    @JoinColumn(name = "idParent")
-    @JsonBackReference
-    private Category parentCategory;
-
 }
