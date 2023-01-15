@@ -24,5 +24,6 @@ public class TopicDTO {
     @NotNull
     private String content;
 
-    private LocalDateTime lastEdition;
+    @NotNull
+    private CategoryDTO category;
 }

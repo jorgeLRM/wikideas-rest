@@ -22,7 +22,7 @@ public class Topic {
     @Column(nullable = false, length = 70)
     private String title;
 
-    @Column(nullable = false)
+    @Column(nullable = false, columnDefinition = "TEXT")
     private String content;
 
     @Column(nullable = false)
